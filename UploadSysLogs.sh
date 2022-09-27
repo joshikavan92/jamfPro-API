@@ -24,7 +24,7 @@ apiURL="https://instance.jamfcloud.com"
 
 # Replace the apiUser, apiPassword and instance name with your respective information 
 
-# Recommended : User encrypted password for apiPassword Field. 
+# Recommended : Use encrypted password for apiPassword Field. 
 # Refer end of the script to know how to encrypt apiPassword.
 
 serialNumber=$(system_profiler SPHardwareDataType | awk '/Serial Number/{print $4}')
